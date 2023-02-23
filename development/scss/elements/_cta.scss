@@ -1,0 +1,41 @@
+.CTA {
+    width: 1440px;
+    height: 250px;
+    background-color: $thunder;
+    color: $white;
+    font-family: $font-open-sans;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px;
+
+    &_text {
+        text-align: center;
+    }
+
+    &_text > h3 {
+        font-size: 36px;
+        padding-bottom: 30px ;
+    }
+
+    &_text > p {
+        font-size: 24px;
+        width: 805px;
+    }
+
+    &_button {
+        width: 218px;
+        height: 55px;
+        padding: 6px 10px;
+        background-color: $orange;
+        font-family: $font-open-sans;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+
+        & > a {
+            color: white;
+        }
+    }
+}

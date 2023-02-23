@@ -1,0 +1,49 @@
+.page-header {
+    width: auto;
+    height: 100px;
+    background-color: $thunder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+
+    .logo {
+        color: $white;
+        font-family: $font-charmonman;
+        font-weight: 400;
+        font-size: 40px;
+        text-decoration: none;
+        padding: 0 50px;
+    }
+
+    .logo>span {
+        color: $orange;
+    }
+
+    .menu {
+
+        &_list {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        &_link {
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 30px 50px;
+            font-size: 16px;
+        }
+
+        &_link>a {
+            color: $white;
+            font-family: $font-open-sans;
+            font-weight: 400;
+        }
+
+        &_link>a:hover {
+            color: $orange;
+        }
+
+    }
+}
