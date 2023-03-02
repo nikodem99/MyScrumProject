@@ -3,8 +3,13 @@
 @import "./generic/base";
 @import "./generic/layout";
 @import "./varibles/colors";
+@import "./generic/size";
 
 
 @import "./elements/header";
 @import "./elements/carousel";
-@import "./elements/cta"
+@import "./elements/cta";
+@import "./elements/aboutApp";
+@import "./elements/newsletter";
+@import "./elements/author";
+@import "./elements/footer";

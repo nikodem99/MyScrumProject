@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: $grey;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+}
+
+footer li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons {
+    margin-left: 1150px; 
+    margin-bottom: -20px;;
+
+}
+
+
+.footer-copyright{
+    background-color:$thunder;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.footer-copyright p{
+    margin-bottom: 0px;
+}
+
+.input-text {
+    margin-top: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.button-down {
+    background-color: $orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-down:hover {
+    background-color: darkorange;
+  }
+  
+
+
+
+
+
+
+
+
+// .footer {
+//     width: 1440px;
+//     height: 250px;
+//     background-color: $grey;
+//     color: $white;
+//     font-family: $font-open-sans;
+//     display: flex;
+//     align-items: center;
+//     padding: 20px 140px;
+
+//     &__createBy {
+//         width: 100%;
+//         margin-left: -100px;
+//         margin-bottom: -200px;
+//         background-color: $thunder;
+//     }
+// }
+
+
+// <footer class="footer">
+//     <div class="footer__leftColumn">
+//         <h1 class="footer__leftColumn__title">Lorem ipsum dolor sit amet.</h1>
+//         <p class="footer__leftColumn__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nostrum, veniam facilis impedit iste ipsum repellendus excepturi consequuntur veritatis laborum.</p>
+//     </div>
+
+//     <div class="footer__centerColumn">
+//         <h3 class="footer__centerColumn__title">Lorem, ipsum dolor.</h3>
+//         <ul class="footer__centerColumn__text">
+//         <li>Lorem, ipsum dolor.</li>
+//         <li>Lorem ipsum dolor sit.</li>
+//         <li>Lorem, ipsum dolor.</li>
+//         <li>Lorem ipsum dolor sit.</li>
+//         </ul>
+//     </div>
+
+
+//     <section class="footer__first__createBy">
+//     <div class="footer__createBy">
+//         <span class="footer__createBy_copy"><i>Copyright</i></span>
+//             <a class="footer__createBy__link">ZaplanujJedzonko.pl</a>
+//       </div>
+// </footer>

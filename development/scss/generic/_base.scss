@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
   }
   
   :root {
@@ -8,37 +9,5 @@
   
   a {
     text-decoration: none;
-  }
-  
-  /* breakpointy dla różnych rozmiarów ekranów */
-  $breakpoint-xs: 320px; // extra small
-  $breakpoint-sm: 576px; // small
-  $breakpoint-md: 768px; // medium
-  $breakpoint-lg: 992px; // large
-  $breakpoint-xl: 1200px; // extra large
-  
-  /* style dla elementów na ekranach o szerokości mniejszej niż 576px (breakpoint-xs) */
-  @media (max-width: $breakpoint-sm - 1) {
-    /* dodaj style, np. dla menu mobilnego */
-  }
-  
-  /* style dla elementów na ekranach o szerokości większej lub równej 576px (breakpoint-sm) */
-  @media (min-width: $breakpoint-sm) {
-    /* dodaj style, np. dla menu desktopowego */
-  }
-  
-  /* style dla elementów na ekranach o szerokości większej lub równej 768px (breakpoint-md) */
-  @media (min-width: $breakpoint-md) {
-    /* dodaj style, np. dla layoutu strony */
-  }
-  
-  /* style dla elementów na ekranach o szerokości większej lub równej 992px (breakpoint-lg) */
-  @media (min-width: $breakpoint-lg) {
-    /* dodaj style, np. dla obrazków */
-  }
-  
-  /* style dla elementów na ekranach o szerokości większej lub równej 1200px (breakpoint-xl) */
-  @media (min-width: $breakpoint-xl) {
-    /* dodaj style, np. dla headera */
   }
   

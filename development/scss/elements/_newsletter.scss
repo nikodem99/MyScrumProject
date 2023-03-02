@@ -1,0 +1,41 @@
+.newsletter {
+    width: 1440px;
+    height: 150px;
+    background-color: $grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 140px 30px;
+    font-family: $font-open-sans;
+    font-size: 0;
+
+    &_title {
+        font-size: 48px;
+        color: $white;
+    }
+
+    &_input-text {
+        width: 287px;
+        height: 55px;
+        font-size: 25px;
+        border: 1px solid #c8c8c8;
+        padding: 0px 10px;
+        margin: 0;
+    }
+
+    &_button {
+        width: 165px;
+        height: 55px;
+        padding: 6px 10px;
+        background-color: $orange;
+        color: white;
+        font-family: $font-open-sans;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        margin: 0;
+        cursor: pointer;
+    }
+}
