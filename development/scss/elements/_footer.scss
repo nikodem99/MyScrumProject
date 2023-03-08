@@ -25,12 +25,6 @@ footer li{
     display: inline-block;
 }
 
-.icons {
-    margin-left: 1150px; 
-    margin-bottom: -20px;;
-
-}
-
 
 .footer-copyright{
     background-color:$thunder;
@@ -38,6 +32,12 @@ footer li{
     padding: 15px;
     margin-top: 30px;
     text-transform: capitalize;
+
+
+    .food-plan-text {
+        color: $orange;
+      }
+      
 }
 
 .footer-copyright p{
@@ -45,7 +45,10 @@ footer li{
 }
 
 .input-text {
+    display: flex;
+    margin-left: 1000px;
     margin-top: 50px;
+    margin-bottom: 180px;
     border: none;
     padding: 10px 20px;
     font-size: 15px;
@@ -53,6 +56,9 @@ footer li{
 }
 
 .button-down {
+
+    margin-left: 1035px;
+    margin-bottom: -146px;
     background-color: $orange;
     color: white;
     border: none;
@@ -65,7 +71,102 @@ footer li{
   .button-down:hover {
     background-color: darkorange;
   }
+
+  .contact-col-social {
+    font-size: 50px;
+    margin-top: -150px;
+    margin-left: 735px;
+
+    .fab.fa-facebook-square {
+        color: white;
+    }
+
+    .fab.fa-twitter-square {
+        color: white
+    }
+
+    .fab.fa-instagram {
+        color: white
+    }
+}
+
+.paragraf-left {
+    color: white;
+    font-family: $font-fontAwsome;
+    margin-left: 825px;
+    margin-bottom: -35px; 
+    font-size: 25px;
+}
+
+.text-middle {
+ color: $white;
+ font-size: 15px;
+ margin-bottom: -165px;
+}
+
+ .text-h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-family: $font-fontAwsome;
+ }
+
+.text-li1 {
+    display: list-item;
+    font-family: $font-fontAwsome;
+}
+.text-li2 {
+    display: list-item;
+    font-family: $font-fontAwsome;
+}
+.text-li3 {
+    display: list-item;
+    font-family: $font-fontAwsome;
+}
+.text-li4 {
+    display: list-item;
+    font-family: $font-fontAwsome;
+}
+
+
+.text-left_Import {
+    color: $white;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: -165px;
   
+   }
+   
+    .text-h3_Import {
+       font-size: 25px;
+       margin-bottom: 40px;
+       margin-right: 1000px;
+       font-family: $font-fontAwsome;
+    }
+   
+   .text-li1_Import {
+       display: list-item;
+       font-family: $font-fontAwsome;
+       margin-right: 1000px;
+   }
+   .text-li2_Import {
+       display: list-item;
+       font-family: $font-fontAwsome;
+       
+   }
+   .text-li3_Import {
+       display: list-item;
+       font-family: $font-fontAwsome;
+   }
+   .text-li4_Import {
+       display: list-item;
+       font-family: $font-fontAwsome;
+   }
+
+
+
+
+
 
 
 
