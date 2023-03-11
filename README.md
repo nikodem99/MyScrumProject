@@ -1,13 +1,13 @@
 Coders Lab Scrum Lab.
 
 Description
-"Zaplanuj Jedzonko" is a front-end Scrum lab project from Coders Lab.
+"Zaplanuj Jedzonko" is a lab project from Coders Lab.
 
 Technologies
 HTML
 CSS
 JavaScript
-Gulp Sass
+
 Demo
 Go to https://zaplanujjedzonko.netlify.app/
 
